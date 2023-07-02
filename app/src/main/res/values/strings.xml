@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DnDCharsheet</string>
+    <string name="add_item">Add Item</string>
+    <string name="new_item">New Item:</string>
+    <string name="open_inventory">open inventory</string>
+    <string name="edit_character">Edit Character</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
 </resources>

@@ -17,7 +17,13 @@
         android:theme="@style/Theme.DnDCharsheet"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".character.CharacterActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DnDCharsheet">
+        </activity>
+        <activity
+            android:name=".CharacterListActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.DnDCharsheet">

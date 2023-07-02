@@ -9,47 +9,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-
     <TextView
         android:id="@+id/age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-
     <Button
         android:id="@+id/edit_character_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Character"/>
+        android:text="@string/edit_character"/>
 
-    <TextView
-        android:id="@+id/saved_data"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/open_inventory_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""/>
+        android:text="@string/open_inventory" />
+    <ListView
+        android:id="@+id/inventory_list"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/inventory_input_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="New Item:">
-
+        android:hint="@string/new_item">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inventory_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/add_item_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Item" />
-
-    <ListView
-        android:id="@+id/inventory_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text="@string/add_item" />
 
 </LinearLayout>
